@@ -10,94 +10,141 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/1a530e2cb8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Carousel Theatre</title>
 </head>
 
 <body>
     <header>
-        <h1 class="">Carousel Theatre</h1>
-        <nav>
-        <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="showings.html">Showings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="booking.html">Book Now</a>
-            </li>
-          </ul>
+        <div class="container-fluid"></div>
+        <h1 class="display-1">Carousel Theatre</h1>
+        <h2 class="display-4">Blackwood</h2>
+        <nav class="bg-light">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="showings.html">Showings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="booking.html">Book Now</a>
+                </li>
+            </ul>
         </nav>
+        </div>
     </header>
 
-    <div class="container-fluid">
-        <!--about section, image of theatre & history-->
-        <section class="theatre-about">
-            <h2>Carousel Theatre - Blackwood</h2>
-            <h3>About the Theatre</h3>
-            <p></p>
-            <img src="" alt="">
-        </section>
-
-        <!--where to find us section, to include an iframe of googlemaps-->
-        <section class="theatre-location">
-            <h3>Where to find us</h3>
-            <iframe src="" alt=""></iframe>
-            <p></p>
-        </section>
-
-        <!--contact section-->
-        <section class="contact-us">
-            <h3>Contact Us</h3>
-            <p>Call us on<strong><mark>01758 449472</mark></strong></p>
-            <br>
-            <p>Find us on Social Media<a href="Facebook.com"><i></i></a>
-                <a href="twitter.com"><i></i></a>
-                <a href="instagram.com"><i></i></a></p>
-        </section>
-
-        <!--refreshments information, 2 images to be included of popcorn and drinks-->
-        <section class="theatre-refreshments">
-            <h3>Refreshments</h3>
-            <p>We offer a wide range of refreshments for our customers, including
-                <li>
-                    <ul>Alcoholic Drinks</ul>
-                    <ul>Soft drinks</ul>
-                    <ul>Tea and Coffee</ul>
-                    <ul>Popcorn</ul>
-                    <ul>Sweets</ul>
-                    <ul>Hotdogs</ul>
-                    <ul>Nachos</ul>
-                </li>
-            </p>
-            <img href="" alt="">
-            <img href="" alt="">
-        </section>
-    </div>
-    <!--Coming soon section and then nav bar-->
-    <footer>
-        <div class="coming-soon">
-            <h4>Coming soon</h4>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+    <section class="theatre-about">
+        <div class="container-fluid">
+            <!--about section, image of theatre & history-->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <img width="100%" height="100%" src="images/theatre.jpeg"
+                        alt="pictire of the inside of the theatre, plush red tierede seats with gold coloured accents, image also shows an ornate ceiling pattern">
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="theatre-about text-center">
+                        <h3>About the Theatre</h3>
+                        <p>The Carousel Theatre is an 1800s renovated cinema. This family run
+                            business has been open for 25 years and has solidified itself as one of Blackwood's go-to
+                            spots, seating 504 people in 4 screens.</p>
+                    </div>
+                    <div class="theatre-where text-center">
+                        <h3>Where to find us</h3>
+                        <p>You can find us on Blackwood High Street! We are opposite Papa John's Pizza.
+                            <br>
+                            2345 High Street
+                            Blackwood
+                            Gwent
+                            NP12 45Y
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img src="images/outside theatre.jpeg"
+                        alt="image of the outside of the theatre, a white building with small windows" width="100%"
+                        height="50%">
+                    <div>
+                        <iframe src="https://www.google.com/maps/@51.6647431,-3.1941826,20.02z"
+                            title="carousel theatre location" allowfullscreen width="100%" height="50%"></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav>
-            <li>
-                <ul><a href="index.html">Home</a></ul>
-                <ul><a href="showings.html">Showings</a></ul>
-                <ul><a href="booking.html">Book Now!</a></ul>
-            </li>
-        </nav>
-    </footer>
+    </section>
 
+    <!--contact section-->
+    <section class="contact-us">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <h3>Contact Us</h3>
+                    <p>Call us on<mark>01758 449472</mark></p>
+                    <p><strong>or</strong></p>
+                    <p>Find us on Social Media</p>
+
+
+                    <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+
+                    <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+
+
+                    <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+
+
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="refreshments text-center">
+                        <h3>Refreshments</h3>
+                        <p>We offer a wide range of refreshments for our customers, including
+                            <ul>
+                                <li>Soft drinks</li>
+                                <li>Tea and Coffee</li>
+                                <li>Popcorn</li>
+                                <li>Sweets</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img width="100%" height="100%" src="images/cinema snacks.jpeg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--refreshments information, 2 images to be included of popcorn and drinks-->
+    <section class="theatre-refreshments">
+        
+        <img href="" alt="">
+        <img href="" alt="">
+    </section>
+    </div>
+    <!--nav bar-->
+    <footer>
+        <div class="container-fluid">
+            <nav class="bg-light">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="showings.html">Showings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

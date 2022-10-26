@@ -24,6 +24,14 @@ enter screenshots here!
 - Link to the specific page and author 
 
 Bootstrap for navbar: https://getbootstrap.com/docs/5.0/components/navs-tabs/ 
+bootstrap for display of Carousel: https://getbootstrap.com/docs/5.0/content/typography/ 
+pulp fiction movie poster: https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg
+charlottes web movie poster: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.starstills.com%2Fcharlottes-web-original-movie-poster-double-sided-advance%2F&psig=AOvVaw2dbDV_eD7hMPoy9QBj8Cnr&ust=1666823379612000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIjuko23_PoCFQAAAAAdAAAAABAJ 
+Jaws movie poster: https://upload.wikimedia.org/wikipedia/en/e/eb/JAWS_Movie_poster.jpg 
+facebook icon: https://fontawesome.com/icons/facebook?f=brands 
+instagram icon: https://fontawesome.com/icons/instagram?s=&f=brands
+twtiter icon: https://fontawesome.com/icons/twitter?s=&f=brands 
+
 
 ## Deployment 
 A step by step of how to deploy ur project 
