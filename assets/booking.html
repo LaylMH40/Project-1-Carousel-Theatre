@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/1a530e2cb8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Carousel Theatre</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid"></div>
+        <h1 class="display-1">Carousel Theatre</h1>
+        <h2 class="display-4">Blackwood</h2>
+        <nav class="bg-light">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="showings.html">Current Showings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="booking.html">Book Now</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section class="text-center">
+        <h3>Book Now!</h3>
+        <div class="alert alert-info" role="alert">
+            Tickets are only £5 per person! Any day, any time, forever!
+        </div>
+        <p>Complete your booking by calling us on 01758 449472, visiting us in person or by filling out the order form
+            below.</p>
+    </section>
+
+    <!--form to book!-->
+    <form action="thankyou.html" method="POST">
+        <section class="container">
+            <h4>Personal Information</h4>
+            <!--First name & Last name row-->
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="first-name-box" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="first-name-box" placeholder="First name">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="last-name-box" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="last-name-box" placeholder="Last name">
+                    </div>
+                </div>
+            </div>
+            <!--Email Address & Phone Number row-->
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="email-address-box" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email-address-box" placeholder="name@example.com">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="phone-number-box" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phone-number-box" placeholder="00000000000">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--Billing address-->
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="address-box" class="form-label">Billing Address</label>
+                        <input type="text" class="form-control" id="address-box" placeholder="1st Line of address">
+                        <input type="text" class="form-control" id="address-box" placeholder="Town">
+                        <input type="text" class="form-control" id="address-box" placeholder="Post code">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="special-requirements" class="form-label">Special Requirements</label>
+                        <textarea class="form-control" id="special-requirements" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Ticket selection-->
+        <section class="container">
+            <h4>Ticket Selection</h4>
+            <div class="row">
+                <!--Number of tickets-->
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="number-of-tickets-box" class="form-label">Number of Tickets</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-check form-check-inline" id="number-of-tickets-box">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="1-ticket" value="1">
+                        <label class="form-check-label" for="1-ticket">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="2-tickets" value="2">
+                        <label class="form-check-label" for="2-tickets">2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="3-tickets" value="3">
+                        <label class="form-check-label" for="3-tickets">3</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="4-tickets" value="4">
+                        <label class="form-check-label" for="4-tickets">4</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="5-tickets" value="5">
+                        <label class="form-check-label" for="5-tickets">5</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="6-tickets" value="6">
+                        <label class="form-check-label" for="6-tickets">6</label>
+                    </div>
+                </div>
+            </div>
+            <!--Day selection-->
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="day-box" class="form-label">Day </label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-check form-check-inline" id="day-box">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="Monday"
+                            value="Monday">
+                        <label class="form-check-label" for="Monday">Monday</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="Wednesday"
+                            value="Wednesday">
+                        <label class="form-check-label" for="Wednesday">Wednesday</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="Friday"
+                            value="Friday">
+                        <label class="form-check-label" for="Friday">Friday</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="Saturday"
+                            value="Saturday">
+                        <label class="form-check-label" for="Saturday">Saturday</label>
+                    </div>
+                </div>
+            </div>
+            <!--Film selection-->
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="day-box" class="form-label">Film Selection</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-check form-check-inline" id="day-box">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="JAWS" value="JAWS">
+                        <label class="form-check-label" for="JAWS">JAWS</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="Casablanca"
+                            value="Casablanca">
+                        <label class="form-check-label" for="Casablanca">Casablanca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="Finding-Nemo"
+                            value="Finding-Nemo">
+                        <label class="form-check-label" for="Finding-Nemo">Finding Nemo</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="28-Weeks-Later"
+                            value="28-Weeks-Later">
+                        <label class="form-check-label" for="28-Weeks-Later">28 Weeks Later</label>
+                    </div>
+                </div>
+            </div>
+            <!--Time selection-->
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="day-box" class="form-label">Time Selection</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-check form-check-inline" id="day-box">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="10:30"
+                            value="10:30">
+                        <label class="form-check-label" for="10:30">10:30</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="13:00"
+                            value="13:00">
+                        <label class="form-check-label" for="13:00">13:00</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="17:00"
+                            value="17:00">
+                        <label class="form-check-label" for="17:00">17:00</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="19:00"
+                            value="19:00">
+                        <label class="form-check-label" for="19:00">19:00</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="21:00"
+                            value="21:00">
+                        <label class="form-check-label" for="21:00">21:00</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Payment Details-->
+        <section class="container">
+            <h4>Payment Details</h4>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="card-number-box" class="form-label">Card Number</label>
+                        <input type="number" class="form-control" id="card-number-box"
+                            placeholder="0000 0000 0000 0000">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="sort-code-box" class="form-label">Sort Code</label>
+                        <input type="number" class="form-control" id="sort-code-box" placeholder="00-00-00"></input>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="expiry-date-box" class="form-label">Expiry Date</label>
+                        <input type="month" class="form-control" id="expiry-date-box" placeholder="mm/yy">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-3">
+                        <label for="cvv-box" class="form-label">CVV</label>
+                        <input type="number" class="form-control" id="cvv-box" placeholder="000"></input>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Book now button-->
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-check">
+                        <label class="form-check-label" for="T&Cs-Checkbox">
+                            I accept the terms and conditions
+                        </label>
+                        <input class="form-check-input" type="checkbox" value="" id="T&Cs-Checkbox">
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <input type="button" onclick="alert('Booking Confirmed!')" value="Book Now!">
+                </div>
+            </div>
+        </section>
+    </form>
+    <!--nav bar-->
+    <footer>
+        <div class="container-fluid">
+            <nav class="bg-light">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="showings.html">Showings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
