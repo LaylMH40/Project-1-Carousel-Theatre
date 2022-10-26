@@ -23,15 +23,40 @@ enter screenshots here!
 - Source text, image or other media  you have used which is not yours
 - Link to the specific page and author 
 
-Bootstrap for navbar: https://getbootstrap.com/docs/5.0/components/navs-tabs/ 
-bootstrap for display of Carousel: https://getbootstrap.com/docs/5.0/content/typography/ 
-pulp fiction movie poster: https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg
-charlottes web movie poster: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.starstills.com%2Fcharlottes-web-original-movie-poster-double-sided-advance%2F&psig=AOvVaw2dbDV_eD7hMPoy9QBj8Cnr&ust=1666823379612000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIjuko23_PoCFQAAAAAdAAAAABAJ 
-Jaws movie poster: https://upload.wikimedia.org/wikipedia/en/e/eb/JAWS_Movie_poster.jpg 
+Bootstrap for navbar: https://getbootstrap.com/docs/5.0/components/navs-tabs/
 facebook icon: https://fontawesome.com/icons/facebook?f=brands 
 instagram icon: https://fontawesome.com/icons/instagram?s=&f=brands
 twtiter icon: https://fontawesome.com/icons/twitter?s=&f=brands 
+image of theatre: https://media.timeout.com/images/105750802/750/562/image.jpg 
+image of outside of theatre: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.co.uk%2FShowUserReviews-g49174-d12104298-r666521717-Graham_Cinema-Graham_North_Carolina.html&psig=AOvVaw2uEHy8ZhDGziUgUCwTnRFJ&ust=1666829062610000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCODcpaPM_PoCFQAAAAAdAAAAABAE 
+image of cinema snacks: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F7116267-popcorn-glasses-and-a-drink-everything-for-watching-a-movie-at-the-cinema-flat-vector-illustration&psig=AOvVaw1uLHMFa0HUEVH0TqaoenxF&ust=1666829991987000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMDG0N7P_PoCFQAAAAAdAAAAABAJ
+as inspiration: https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_template1 
 
+bootstrap for the blockquotes: https://getbootstrap.com/docs/5.0/content/typography/#blockquotes 
+
+jaws movie description: https://www.google.com/search?q=jaws+&sxsrf=ALiCzsae5YvPdIPRMZu953TqzA6nJr18dw%3A1666745542299&ei=xoRYY8zvEdHOgQb5yaqgAQ&ved=0ahUKEwjM6ur_1vz6AhVRZ8AKHfmkChQQ4dUDCA8&uact=5&oq=jaws+&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAELEDEEMyBwguELEDEEMyBAgAEEMyBwguELEDEEMyBAgAEEMyCgguELEDEIMBEEMyBAguEEMyCAgAEIAEELEDMgoILhCxAxDUAhBDMgoIABCABBCHAhAUSgQIQRgASgQIRhgAUABYAGCLAWgAcAB4AIABR4gBR5IBATGYAQCgAQHAAQE&sclient=gws-wiz 
+
+casablanca move description: https://www.google.com/search?q=casablanca&sxsrf=ALiCzsZml71wHK7sGisdidPc2Gxq1h4DqQ%3A1666745584342&ei=8IRYY8e9FI-M8gLhs7aADg&gs_ssp=eJzj4tDP1TdIKzG0MGD04kpOLE5MyknMS04EAEelBs8&oq=casablanca&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIHCC4QsQMQQzIKCAAQgAQQhwIQFDILCC4QgAQQsQMQgwEyCAgAELEDEIMBMggIABCABBCxAzIICAAQgAQQsQMyBQgAEIAEMgsILhCABBDHARCvATILCC4QgAQQxwEQrwE6BAgAEEM6BAguEEM6BwguENQCEEM6BAguECc6DQguELEDEIMBENQCEEM6EAguEIAEEIcCEMcBEK8BEBQ6CwgAEIAEELEDEIMBOggIABCABBDJAzoHCCMQsQIQJzoNCC4QgAQQsQMQgwEQCjoKCAAQgAQQsQMQCjoHCAAQgAQQCjoNCC4QgAQQxwEQrwEQCkoECE0YAUoECEEYAEoECEYYAFAAWOAaYMUnaAJwAXgAgAHGAogBiAqSAQgxMC4xLjAuMZgBAKABAcABAQ&sclient=gws-wiz
+
+finding nemo description: https://www.google.com/search?q=finding+nemo&biw=1680&bih=914&sxsrf=ALiCzsb6ACjEhZeGmAUm_byJGhAwBXXiiw%3A1666745965185&ei=bYZYY834CozHgAbS9KeIBg&gs_ssp=eJzj4tTP1TcwzCpKSjJg9OJJy8xLycxLV8hLzc0HAGG6CBU&oq=Finding+Nemo&gs_lcp=Cgdnd3Mtd2l6EAEYADIKCC4QsQMQ1AIQQzIKCAAQgAQQhwIQFDIICAAQgAQQsQMyCAgAEIAEELEDMggILhCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDILCAAQgAQQsQMQgwEyBQgAEIAEOgQIIxAnOgcILhDUAhBDOgQIABBDOgQILhBDOgcIIxAnEIsDOhAILhCxAxCDARDUAhBDEIsDOgoILhDUAhBDEIsDOhAILhDUAhBDEIsDEKQDEKgDOg0ILhCxAxCDARDUAhBDOgoIABCxAxCDARBDOgcILhCxAxBDOgQILhAnOhQILhCABBCxAxCDARDHARDRAxDUAjoRCC4QgAQQsQMQgwEQxwEQ0QM6CgguEMcBENEDECc6EAguEIAEEIcCEMcBEK8BEBQ6BwgAELEDEEM6BwgjEOoCECc6BwguEOoCECc6CgguEMcBEK8BECc6EwguELEDEIMBEMcBENEDENQCEEM6EAguEIAEEIcCELEDEIMBEBQ6CgguELEDEIMBEEM6BQguEIAEOgcIABBDEIsDOgcILhBDEIsDOg0ILhBDEIsDEKQDEKgDOgoILhCABBCHAhAUSgQITRgBSgQIQRgASgQIRhgAUABY6OgBYNT2AWgHcAF4AIABmAGIAf8WkgEEMzEuNZgBAKABAbABCrgBAsABAQ&sclient=gws-wiz
+
+28 weeks later description: https://www.google.com/search?q=28+weeks+later&oq=28+weeks+later&aqs=chrome..69i57j46i131i433i512j0i512j0i20i263i512j0i512j0i20i263i512j0i512l4.3882j0j9&sourceid=chrome&ie=UTF-8 
+
+JAWS movie poster: https://static.wikia.nocookie.net/jaws/images/d/da/Jaws-movie-poster.jpg/revision/latest/scale-to-width-down/1200?cb=20131015071208 
+
+Casablanca movie poster: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlIHtgWeQQsiZaY5iw_A5FTDeKr7bNFWo1W_zObm0h_ti2Yk0V
+
+Finding nemo movie poster: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSDqdLoZIbHPJEJsqzoB5wVBO2i5Fr9aDsEb_lvi9xlYPTtKOiO 
+
+28 weeks later movie poster: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYlpM1WKw2Ab5YFcU93wZDRI3lV_DpFGC_6aT9t_NCcoIUOn-d
+
+ticket price alert bootstrap info: https://getbootstrap.com/docs/5.0/components/alerts/
+
+bootstrap for basic form structure: https://getbootstrap.com/docs/5.0/forms/form-control/
+
+input types help: https://www.w3schools.com/html/html_form_input_types.asp 
+
+checkbox & radio button bootstrap help: https://getbootstrap.com/docs/5.0/forms/checks-radios/ 
 
 ## Deployment 
 A step by step of how to deploy ur project 
@@ -45,6 +70,8 @@ Go back over user stories in detail and talk about how your site meets these pre
 Remember to use online validators for your languages 
 Testing - Bug section 
 Any major bugs etc 
+
+Major bug: all radio buttons on form would coincide so you couldnt pick a date and time, only a date OR time. managed to change around the bootstrap applied IDs and it ened up working when i had personalised them :)
 
 Using the Nav bar & links in the footer users can navigate to each of the pages, also by clicking on the Carousel theatre heading the user is redirected to the Homepage. 
 
