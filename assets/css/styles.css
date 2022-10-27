@@ -44,6 +44,10 @@ ul>li {
     list-style: none;
 }
 
+ul{
+    padding: 0;
+}
+
 div>article {
     margin-top: 10%;
     margin-bottom: 10%;
