@@ -16,9 +16,9 @@ nav {
     margin-right: 0;
 }
 
-li a { 
+li a {
     color: white;
-    
+
 }
 
 .theatre-about {
@@ -40,6 +40,30 @@ li a {
     margin-bottom: 10%;
 }
 
-ul > li {
+ul>li {
     list-style: none;
+}
+
+div>article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width:767px;) {
+    figure {
+        margin-top: 1%;
+        margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    }
 }
