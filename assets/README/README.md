@@ -62,7 +62,7 @@ Please see the screenshot below displaying this information.
 ![screenshot of site in devtools displayed as a mobile viewport](screenshots/responsive-mobile-view.png "Responsive design")
 
 ### Highlights of the User Experience
-- The form 'Book Now!' button sends you to a Thank you page. This is good UX because it means the user doesn't have to press the 'go-back' button.
+- The form 'Book Now!' button should send you to a Thank you page but to be able to submit my form it goes to the code institute page. If this page could be the form submission page this is good UX because it means the user doesn't have to press the 'go-back' button. I am not sure how to do this but its an idea that I had. 
 - The consistent styles across the pages of the site ensure a consistently good user experience.
 
 ### Acknowledgments
