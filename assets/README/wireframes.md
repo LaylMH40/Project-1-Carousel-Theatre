@@ -5,28 +5,28 @@ These were initial designs created with the user experience and user stories in 
 
 ## Desktop View
 ### Home Page
-![Home Page Wireframe - desktop view](Wireframes/Desktop/Desktop-View-Home-Page.png)
+![Home Page Wireframe - desktop view](wireframes/Desktop/Desktop-View-Home-Page.png)
 ### Currently Showing
-![Currently Showing Wireframe - desktop view](Wireframes/Desktop/Desktop-View-Show-Times.png)
+![Currently Showing Wireframe - desktop view](wireframes/Desktop/Desktop-View-Show-Times.png)
 ### Booking Page
-![Booking Page Wireframe - desktop view](Wireframes/Desktop/Desktop-View-Booking-page.png)
+![Booking Page Wireframe - desktop view](wireframes/Desktop/Desktop-View-Booking-page.png)
 
 ---
 
 ## Tablet View
 ### Home Page
-![Home page Wireframe - tablet view](Wireframes/Tablet/Tablet-View-Booking-page.png)
+![Home page Wireframe - tablet view](wireframes/Tablet/Tablet-View-Booking-page.png)
 ### Currently Showing
-![Currently showing Wireframe - tablet view](Wireframes/Tablet/Tablet-View-Booking-page.png)
+![Currently showing Wireframe - tablet view](wireframes/Tablet/Tablet-View-Booking-page.png)
 ### Booking Page
-![Booking page Wireframe - tablet view](Wireframes/Tablet/Tablet-View-Booking-page.png)
+![Booking page Wireframe - tablet view](wireframes/Tablet/Tablet-View-Booking-page.png)
 
 ---
 
 ## Mobile View
 ### Home Page
-![Home page Wireframe - mobile view](Wireframes/Mobile/Mobile-View-Home-page.png)
+![Home page Wireframe - mobile view](wireframes/Mobile/Mobile-View-Home-page.png)
 ### Currently Showing
-![Currently showing Wireframe - mobile view](Wireframes/Mobile/Mobile-View-Booking-Page.png)
+![Currently showing Wireframe - mobile view](wireframes/Mobile/Mobile-View-Booking-Page.png)
 ### Booking Page
-![Booking page Wireframe - mobile view](Wireframes/Mobile/Mobile-View-Booking-Page.png)
+![Booking page Wireframe - mobile view](wireframes/Mobile/Mobile-View-Booking-Page.png)
