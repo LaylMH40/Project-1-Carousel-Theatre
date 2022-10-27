@@ -62,16 +62,6 @@ figure {
     margin-right: auto;
 }
 
-/* W3 Schools Media Query code: https://www.w3schools.com/cssref/css3_pr_mediaquery.php*/
-@media screen and (max-width:767px;) {
-    figure {
-        margin-top: 1%;
-        margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    }
-}
-
 .termsandconditions {
     margin-right: 3%;
 }

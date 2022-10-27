@@ -44,8 +44,6 @@ Welcome to the resources section of the readme. Here you will find all material 
 
 ## Sources - external code (not bootstrap) AKA Credits
 
-- W3 Schools Media Query code: https://www.w3schools.com/cssref/css3_pr_mediaquery.php
-
 - iframe taken from share button on google maps: https://www.google.com/maps/place/BOW+WOW+BLACKWOOD/@51.6649288,-3.1966123,17z/data=!3m1!4b1!4m5!3m4!1s0x486e2223c903875d:0xee132226c96e379!8m2!3d51.6649114!4d-3.1944601
 
 - W3 Schools, navbar inspiration: https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_template1
