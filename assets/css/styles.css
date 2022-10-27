@@ -62,7 +62,7 @@ figure {
     margin-right: auto;
 }
 
-
+/* W3 Schools Media Query code: https://www.w3schools.com/cssref/css3_pr_mediaquery.php*/
 @media screen and (max-width:767px;) {
     figure {
         margin-top: 1%;
