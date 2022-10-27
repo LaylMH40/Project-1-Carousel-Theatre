@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://kit.fontawesome.com/1a530e2cb8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Carousel Theatre</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Carousel Theatre - Book Now!</title>
 </head>
 
 <body>
@@ -20,16 +20,16 @@
         <div class="container-fluid"></div>
         <h1 class="display-1">Carousel Theatre</h1>
         <h2 class="display-4">Blackwood</h2>
-        <nav class="bg-light">
+        <nav class="navbar-style">
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active"  href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="showings.html">Current Showings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="booking.html">Book Now</a>
+                    <a class="nav-link" aria-current="page" href="booking.html">Book Now</a>
                 </li>
             </ul>
         </nav>
@@ -46,7 +46,7 @@
     </section>
 
     <!--form to book!-->
-    <form action="thankyou.html" method="POST">
+    <form action="thankyou.html" method="">
         <section class="container">
             <h4>Personal Information</h4>
             <!--First name & Last name row-->
@@ -54,13 +54,13 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="first-name-box" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="first-name-box" placeholder="First name">
+                        <input type="text" class="form-control" id="first-name-box" placeholder="First name" minlength="1" required>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="last-name-box" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="last-name-box" placeholder="Last name">
+                        <input type="text" class="form-control" id="last-name-box" placeholder="Last name" required minlength="1">
                     </div>
                 </div>
             </div>
@@ -69,13 +69,13 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="email-address-box" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email-address-box" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="email-address-box" placeholder="name@example.com" required minlength="1">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="phone-number-box" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="phone-number-box" placeholder="00000000000">
+                        <input type="number" class="form-control" id="phone-number-box" placeholder="00000000000" required minlength="11">
                     </div>
                 </div>
             </div>
@@ -85,9 +85,9 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="address-box" class="form-label">Billing Address</label>
-                        <input type="text" class="form-control" id="address-box" placeholder="1st Line of address">
-                        <input type="text" class="form-control" id="address-box" placeholder="Town">
-                        <input type="text" class="form-control" id="address-box" placeholder="Post code">
+                        <input type="text" class="form-control" id="address-box" placeholder="1st Line of address" required minlength="1">
+                        <input type="text" class="form-control" id="address-box" placeholder="Town" required minlength="1">
+                        <input type="text" class="form-control" id="address-box" placeholder="Post Code" required minlength="5">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -240,13 +240,13 @@
                     <div class="mb-3">
                         <label for="card-number-box" class="form-label">Card Number</label>
                         <input type="number" class="form-control" id="card-number-box"
-                            placeholder="0000 0000 0000 0000">
+                            placeholder="0000 0000 0000 0000" required minlength="16">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="sort-code-box" class="form-label">Sort Code</label>
-                        <input type="number" class="form-control" id="sort-code-box" placeholder="00-00-00"></input>
+                        <input type="number" class="form-control" id="sort-code-box" placeholder="00-00-00" required minlength="6"></input>
                     </div>
                 </div>
             </div>
@@ -254,13 +254,13 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="expiry-date-box" class="form-label">Expiry Date</label>
-                        <input type="month" class="form-control" id="expiry-date-box" placeholder="mm/yy">
+                        <input type="month" class="form-control" id="expiry-date-box" placeholder="mm/yy" required>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="mb-3">
                         <label for="cvv-box" class="form-label">CVV</label>
-                        <input type="number" class="form-control" id="cvv-box" placeholder="000"></input>
+                        <input type="number" class="form-control" id="cvv-box" placeholder="000" required minlength="3"></input>
                     </div>
                 </div>
             </div>
@@ -273,13 +273,13 @@
                         <label class="form-check-label" for="T&Cs-Checkbox">
                             I accept the terms and conditions
                         </label>
-                        <input class="form-check-input" type="checkbox" value="" id="T&Cs-Checkbox">
+                        <input class="form-check-input" type="checkbox" value="" id="T&Cs-Checkbox" required >
 
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-6">
-                    <input type="button" onclick="alert('Booking Confirmed!')" value="Book Now!">
+                    <input type="submit" value="Book Now">
                 </div>
             </div>
         </section>
@@ -287,7 +287,7 @@
     <!--nav bar-->
     <footer>
         <div class="container-fluid">
-            <nav class="bg-light">
+            <nav class="navbar-style">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
