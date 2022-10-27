@@ -1,9 +1,14 @@
-READ ME draft 1
+# Carousel Theatre Website
+---
+A website designed to bring an old theatre into the new world. The Carousel Theatre now turned cinema website allows users to learn about the theatre, find out important information (i.e. where it is, opening times, showing films) and allows site users to book tickets.
 
-# Project Title - Carousel Theatre Website 
-## Project Description - 
-A website designed to bring an old theatre into the new world. The Carousel Theatre now turned cinema website allows users to learn about the theatre, find out important information i.e. where it is, opening times, showing films and allows site users to book tickets.
-
+## Contents
+This Readme file has been separated into different markdown files to reduce the amount of scrolling. Please find links to the various sections below. 
+- [User Experience](README.md)
+- [Wireframes](wireframes.md)
+- [Testing](testing.md)
+- [Resources](resources.md)
+- [Deployment]()
 
 ## User Experience
 
@@ -65,6 +70,8 @@ credit addition, solved my bug of icon sizes not changing https://khan.github.io
 CREDIT: used this code for the jumbotron on the thank you page! https://getbootstrap.com/docs/5.0/examples/jumbotron/
 
 CREDIT: used this media query code https://www.w3schools.com/cssref/css3_pr_mediaquery.php 
+
+used this guidance on iframes https://wcmshelp.ucsc.edu/advanced/embedding-google/google-maps.html 
 
 CREDIT: iframe taken from share button on gmaps https://www.google.com/maps/place/BOW+WOW+BLACKWOOD/@51.6649288,-3.1966123,17z/data=!3m1!4b1!4m5!3m4!1s0x486e2223c903875d:0xee132226c96e379!8m2!3d51.6649114!4d-3.1944601 
 ## Deployment 
