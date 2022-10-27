@@ -52,6 +52,8 @@ Welcome to the resources section of the readme. Here you will find all material 
 
 - W3 Schools, input date picker: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_week
 
+- luisgepeto on Stack Overflow, img-responsive class: https://stackoverflow.com/questions/31176937/image-responsive-in-bootstrap-to-fill-column
+
 ## Guidance material
 - UC Santa Cruz, Embedding Google Maps: https://wcmshelp.ucsc.edu/advanced/embedding-google/google-maps.html
 - W3 Schools, HTML input types: https://www.w3schools.com/html/html_form_input_types.asp
