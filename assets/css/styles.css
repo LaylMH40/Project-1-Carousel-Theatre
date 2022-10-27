@@ -7,7 +7,39 @@ h2 {
     margin-left: 40px;
 }
 
+.navbar-style {
+    background-color: darkgray;
+}
+
+nav {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+li a { 
+    color: white;
+    
+}
+
+.theatre-about {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.theatre-where {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 .page-header {
-    background-image: images/curtains.jpeg;
-    font-weight; 400;
+    border-bottom: none;
+}
+
+.contact-us {
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+ul > li {
+    list-style: none;
 }
